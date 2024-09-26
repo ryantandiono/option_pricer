@@ -6,9 +6,11 @@ __pycache__/
 venv/
 env/
 
-# Streamlit cache files
+# Ignore everything in the .streamlit directory
 .streamlit/*
-!.streamlit/config.toml  # Include config.toml
+
+# Except the config.toml file
+!.streamlit/config.toml
 
 # Jupyter Notebook checkpoints (if any)
 .ipynb_checkpoints/
