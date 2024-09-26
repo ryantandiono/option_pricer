@@ -1,0 +1,35 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment directories
+venv/
+env/
+
+# Streamlit cache files
+.streamlit/*
+!.streamlit/config.toml  # Include config.toml
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# macOS specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files or directories
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Backup files
+*~
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
